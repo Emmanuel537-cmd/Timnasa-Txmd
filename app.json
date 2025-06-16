@@ -1,33 +1,33 @@
 {
-  "name": "Tmnasa-Txmd",
+  "name": "EM-XMD",
   "description": "A Node.js WhatsApp bot.",
-  "repository": "https://github.com/Next5x/Timnasa-Txmd",
+  "repository": "https://github.com/EM-MD",
   "stack": "heroku-24",
   "scripts": {
     "postdeploy": "echo 'Deployment complete!'"
   },
   "env": {
-    "AUTO_READ_STATUS": {
+    "AUTO_READ_STATUS": {yes
       "description": "Enable to automatically mark viewed WhatsApp statuses as read (on/off)",
       "value": "on",
       "required": false
     },
-    "AUTO_LIKE": {
+    "AUTO_LIKE": {yes
       "description": "Enable to automatically like statuses (on/off)",
       "value": "on",
       "required": false
     },
-    "AUTO_READ_DM": {
+    "AUTO_READ_DM": {no
       "description": "Enable to auto-read private DMs sent to the bot (on/off)",
       "value": "off",
       "required": false
     },
-    "AUTO_DOWNLOAD_STATUS": {
+    "AUTO_DOWNLOAD_STATUS": {no
       "description": "Enable to auto-download viewed statuses in your private chat (on/off)",
       "value": "off",
       "required": false
     },
-    "OWNER_NAME": {
+    "OWNER_NAME": {Emmanuel
       "description": "Your name (used for bot credits and messages)",
       "value": "TIMNASA-TXMD",
       "required": false
@@ -37,22 +37,22 @@
       "value": "off",
       "required": false
     },
-    "DM_PRESENCE": {
+    "DM_PRESENCE": {typing
       "description": "Bot's presence in DMs (e.g. typing, paused, recording)",
       "value": "paused",
       "required": false
     },
-    "GROUP_PRESENCE": {
+    "GROUP_PRESENCE": {typing
       "description": "Bot's presence in groups (e.g. typing, paused, recording)",
       "value": "paused",
       "required": false
     },
-    "MODE": {
+    "MODE": {public
       "description": "Bot mode: private (only owner) or public (everyone)",
       "value": "private",
       "required": false
     },
-    "PREFIX": {
+    "PREFIX": {.
       "description": "Command prefix(es), separated by commas (e.g. !,.,#)",
       "value": "!",
       "required": false
@@ -62,7 +62,7 @@
       "value": "",
       "required": false
     },
-    "OWNER_NUMBER": {
+    "OWNER_NUMBER": {263784868165
       "description": "Your WhatsApp number in international format (e.g. 255752593977)",
       "value": "",
       "required": true
